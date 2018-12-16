@@ -18,8 +18,14 @@
 </template>
 <script>
 export default {
+  mounted() {
+      let url = window.location.href;
+      console.log(url)
+  },
   data() {
-    return {};
+    return {
+
+    };
   }
 };
 </script>
